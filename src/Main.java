@@ -16,6 +16,48 @@ public class Main {
         else {day = (deliveryDistance - 20) / 40 + 1;
             System.out.println("Потребуется дней: " + day);}
 
+    int monthNumber = 12;
+        switch (monthNumber) {
+            case 1:
+                System.out.println("Январь - зимний.");
+                break;
+            case 2:
+                System.out.println("Февраль - зимний.");
+                break;
+            case 3:
+                System.out.println("Март - весенний.");
+                break;
+            case 4:
+                System.out.println("Апрель - весенний.");
+                break;
+            case 5:
+                System.out.println("Май - весенний");
+                break;
+            case 6:
+                System.out.println("Июнь - летний.");
+            case 7:
+                System.out.println("Июль - летний.");
+                break;
+            case 8:
+                System.out.println("Август - летний");
+                break;
+            case 9:
+                System.out.println("Сентябрь - осенний");
+                break;
+            case 10:
+                System.out.println("Октябрь - осенний");
+                break;
+            case 11:
+                System.out.println("Ноябрь - осенний");
+                break;
+            case 12:
+                System.out.println("Декабрь - зимний");
+                break;
+            default:
+                System.out.println("Такого месяца нет!!!");
+                break;
 
+
+        }
     }
 }
