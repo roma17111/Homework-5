@@ -1,18 +1,14 @@
+import java.time.Year;
+
 public class Main {
     public static void main(String[] args) {
 
+       int year = 2005;
+        if (year %4 ==0 && year %100 !=0 || year %400 ==0) {System.out.println(year + " год " +
+                "является високосным");}
+        else {System.out.println(year + " год " +
+                "не является високосным");}
 
-       byte clientOS = 1;
-        int clientDeviceYear = 2015;
-        if (clientDeviceYear < 2015 && clientOS ==0) {System.out.println("Установите облегченную версию" +
-                " приложения для iOS по ссылке");}
-        else if (clientDeviceYear < 2015 && clientOS ==1) {System.out.println("Установите облегченную версию" +
-                " приложения для android по ссылке");}
-        else if (clientDeviceYear >= 2015 && clientOS ==0) {System.out.println("Установите обычную версию приложения " +
-                "для iOS по ссылке");}
-        else if (clientDeviceYear >= 2015 && clientOS ==1) {System.out.println("Установите обычную версию приложения " +
-                "для android по ссылке");}
-        else {System.out.println("Error");}
 
 
     }
